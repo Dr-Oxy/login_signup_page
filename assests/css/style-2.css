@@ -80,3 +80,22 @@ input[type="button"]{
     flex: 1;
     background-image: url(/assests/img/c.png);
 }
+
+@media screen and  (max-width: 900px){
+    .left {
+        flex: 2;
+        background-color: #161616;
+        padding: 100px 0 100px 100px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .left {
+        flex: 3;
+        padding: 100px 0 100px 50px;
+    }
+
+    .right{
+        display: none;
+    }
+}
